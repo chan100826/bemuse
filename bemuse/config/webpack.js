@@ -247,7 +247,7 @@ function applyWebConfig(config) {
       boot: ['./boot'],
     },
     output: {
-      publicPath: '/',
+      publicPath: '/bemuse/',
       globalObject: 'this',
       filename: 'build/[name].js',
       assetModuleFilename: 'build/assets/[name]-[hash][ext][query]',
