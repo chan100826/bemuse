@@ -26,9 +26,9 @@ jobs:
       - name: Build dependency sub-projects
         run: rush build --to-except bemuse
 
-      - name: Build Bemuse app
+      - name: Build Bemuse app (production)
         working-directory: bemuse
-        run: npx rushx build
+        run: npx rushx prod-build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
