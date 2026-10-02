@@ -1,0 +1,5 @@
+@import '../../ui/common';
+
+.OptionsButton {
+  @include button;
+}

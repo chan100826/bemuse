@@ -1,0 +1,9 @@
+@import '../../ui/common';
+
+.OptionsInputField {
+  @include input;
+  text-align: center;
+  &.is-invalid {
+    color: #8b8685;
+  }
+}
